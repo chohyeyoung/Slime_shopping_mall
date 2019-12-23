@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>말랑말랑 슬라임샵</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Courier+Prime|Noto+Sans+KR&display=swap" rel="stylesheet">
+    <!--구글 웹폰트-->
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/30bb7bb53a.js" crossorigin="anonymous"></script>
+    <!-- bx slider css -->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+   <!-- jQuery-->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+   <!-- bx slider js-->
+   <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+   <!-- 사용자 자바스크립트 -->
+   <script src="./js/main.js"></script>
+   <script src="./js/data.js"></script>
+</head>
+<body>
+    <header id="main_header">
+        <div class="container">
+            <h1>
+            <a href="index.html">
+            <img src="./images/logo_marang.png" alt="말랑말랑">
+            </a>
+            </h1>
+            <!-- 검색창 -->
+            <form id="search_box">
+               <input type="text"
+               placeholder="말랑말랑 단독 이벤트 ! 하나 사면 하나 더 !">
+               <button type="submit">
+                <i class="fas fa-search"></i>
+               </button>
+            </form>
+
+            <!-- 유틸리티 메뉴 -->
+            <nav id="util_menu">
+                <a href="#"><i class="fas fa-user"></i></a>
+                <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                <a href="#"><i class="fas fa-truck"></i></a>
+                <a href="#"><i class="fas fa-heart"></i></a>
+            </nav>
+        </div> <!-- end container -->
+    </header>
+
+    <!-- 메인 gnb -->
+    <nav id="main_gnb">
+        <div class="container">
+            <button id="category_btn">
+                <i class="fas fa-bars"></i>
+                <span>카테고리</span></button>
+            <ul>
+                <li><a href="#">특가</a></li>
+                <li><a href="#">인기</a></li>
+                <li><a href="#">슬라임</a></li>
+                <li><a href="#">이벤트</a></li>
+                <li><a href="#">쿠폰</a></li>
+                <li><a href="#">멤버십</a></li>
+                <li><a href="#">매거진</a></li>
+                <li><a href="#">핫딜</a></li>
+            </ul>
+        </div><!-- end container -->
+    </nav>
+
+    <div class="shopping">
+        
+    </div>
+
+    <!-- 카테고리 메뉴 목록 -->
+    <nav id="category">
+        <div class="container">
+            <dl>
+                <dt>클라우드 슬라임</dt>
+                <dd>pink</dd>
+                <dd>Yellow</dd>
+                <dd>green</dd>
+                <dd>blue</dd>
+            </dl>
+            <dl>
+                <dt>버터 슬라임</dt>
+                <dd>pink</dd>
+                <dd>yellow</dd>
+                <dd>green</dd>
+                <dd>blue</dd>
+            </dl>
+            <dl>
+                <dt>클리어 슬라임</dt>
+                <dd>pink</dd>
+                <dd>yellow</dd>
+                <dd>green</dd>
+                <dd>blue</dd>
+            </dl>
+            
+        </div> <!-- end container -->
+    </nav>
+
+
+    <!-- 메인 배너 -->
+    <section id="main_banner">
+      <div class="inner">
+      <div class="bx-slider"> <!-- main.js 에 슬라이더 코드 속성 -->
+       <img class="img_responsive" src="./images/main_banner01.jpg" alt="1">
+       <img class="img_responsive" src="./images/main_banner02.jpg" alt="2">
+       <img class="img_responsive" src="./images/main_banner03.jpg" alt="3">
+      </div>
+    </div> <!-- end inner -->
+    </section>
+    <!-- 메인 콘텐츠 -->
+    <section id="top_seller">
+        <div class="container"> <!-- end container -->
+            <h2>BEST</h2>
+            <ul class="item_list">
+        </ul>
+        </div> 
+    </section>
+
+    <section id="new_arrival">
+        <div class="container"> 
+            <h2>NEW ARRIVALS</h2>
+            <ul class="item_list_2">
+        </ul>
+        </div> <!-- end container -->
+    </section>
+
+    <!-- 브랜드 추천 메뉴 (이 브랜드 어때요 ? ) -->
+    <section id="brand">
+        <div class="container">
+        <h2>이 슬라임 어때요?</h2>
+        <ul>
+            <li>
+                <!-- 이미지는 배경으로 처리 -->
+                <a href="#">
+                  <span class="title">Cloud</span>
+                  <i class="far fa-heart"></i>
+                  <ul class="hash_tag">
+                      <li>#촉감</li>
+                      <li>#보들보들</li>
+                      <br>
+                      <li>#클라우드슬라임</li>
+                      <li>#구름_질감</li>
+                  </ul>
+                  <ul class="text">
+                    <li class="subject">이벤트</li>
+                    <li><h4>클라우드 슬라임</h4></li>
+                    <li class="day">12.17~12.25</li>
+                </ul>
+                </a>
+            </li>
+            <li>
+                <!-- 이미지는 배경으로 처리 -->
+                <a href="#">
+                  <span class="title">Butter</span>
+                  <i class="far fa-heart"></i>
+                  <ul class="hash_tag">
+                      <li>#촉감</li>
+                      <li>#쫀득쫀득</li>
+                      <br>
+                      <li>#탱탱</li>
+                      <li>#버터슬라임</li>
+                  </ul>
+                  <ul class="text">
+                    <li class="subject">이벤트</li>
+                    <li><h4>버터 슬라임</h4></li>
+                    <li class="day">12.10~12.15</li>
+                </ul>
+                </a>
+            </li>
+            <li>
+                <!-- 이미지는 배경으로 처리 -->
+                <a href="#">
+                  <span class="title">Clear</span>
+                  <i class="far fa-heart"></i>
+                  <ul class="hash_tag">
+                      <li>#기본중의_기본</li>
+                      <li>#쫀득탱탱</li>
+                      <br>
+                      <li>#초보자도_쉬운</li>
+                      <li>#클리어슬라임</li>
+                  </ul>
+                  <ul class="text">
+                      <li class="subject">이벤트</li>
+                      <li><h4>클리어 슬라임</h4></li>
+                      <li class="day">12.10~12.31</li>
+                  </ul>
+                </a>
+            </li>
+        </ul>
+    </div>
+    </section>
+
+    <footer id="main_footer">
+        <h1><a href="index.html"><img src="./images/logo_marang.png" alt="말랑말랑""></a></h1>
+        <p>(주)말랑말랑 &nbsp; | &nbsp; 사업자등록번호 : 211-86-00870 &nbsp; | &nbsp; 대표이사 : 김말랑</p>
+        <address>주소 : 서울시 강남구 봉은사로 1길 39 유성빌딩 4~6층 &nbsp; | &nbsp; 팩스 : 02-511-3864</address>
+        <P>본사 대표전화 : 02-549-3864 &nbsp; | &nbsp; 가맹상담전화 : 02-3447-0410 &nbsp; | &nbsp; 고객센터 : 1544-2360 </P>
+        <p class="copyright">Copyright &copy; 2019 MARANG KOREA INC. ALL RIGHTS RESERVED</p>
+    </footer>
+</body>
+</html>
